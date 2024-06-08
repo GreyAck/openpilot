@@ -511,6 +511,52 @@ FW_VERSIONS = {
       b'\xf1\x00IK  MFC  AT USA LHD 1.00 1.04 99211-G9000 220401',
     ],
   },
+  CAR.GENESIS_G70_2023: {
+    (Ecu.combinationMeter, 0x7c6, None): [
+      b'\xf1\x00071',
+      b'\xf1\x8b "\x11!',
+    ],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00IK  MDPS R 1.00 5.09 57700-G9500 4I4CL509',
+      b'\xf1\x00IK  MDPS R 1.00 1.06 57700-G9220 4I2VL106',
+      b'\xf1\x00IK  MDPS R 1.00 1.07 57700-G9220 4I2VL107',
+      b'\xf1\x00IK  MDPS R 1.00 1.07 57700-G9420 4I4VL107',
+      b'\xf1\x00IK  MDPS R 1.00 1.08 57700-G9200 4I2CL108',
+      b'\xf1\x00IK  MDPS R 1.00 1.08 57700-G9420 4I4VL108',
+      b'\xf1\x00IK  MDPS R 1.00 5.09 57700-G9520 4I4VL509',
+      b'\xf1\x8b "\x11\x17',
+    ],
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00IK__ SCC F-CUP      1.00 1.01 96400-G9100         ',
+      b'\xf1\x00IK__ SCC F-CUP      1.00 1.02 96400-G9100         ',
+      b'\xf1\x00IK__ SCC F-CUP      1.00 1.02 96400-G9100         \xf1\xa01.02',
+      b'\xf1\x00IK__ SCC FHCUP      1.00 1.00 99110-G9300         ',
+      b'\xf1\x00IK__ SCC FHCUP      1.00 1.02 96400-G9000         ',
+      b'\xf1\x8b "\x11\x05',
+      b'\xf1\x10\x17\xdf\x01\x00',
+    ],
+    (Ecu.hvac, 0x7b3, None): [
+      b"\xf1\x00IK PE 97255-G9NB0CONTROL ASS'Y-DATC  1.03IKPE DATC(-) 0.7     ",
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00IK  MFC  AT KOR LHD 1.00 1.01 95740-G9000 170920',
+      b'\xf1\x00IK  MFC  AT USA LHD 1.00 1.01 95740-G9000 170920',
+      b'\xf1\x00IK  MFC  AT USA LHD 1.00 1.04 99211-G9000 220401',
+      b'\xf1\x8b "\x11%',
+    ],
+    (Ecu.cornerRadar, 0x7b7, None): [
+      b'\xf1\x8b !\x11\x18',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'IPPNHM_Y_T0B\x00\x00\x00\x00',
+      b'\xf1\x82IPPNHM_Y_T0B\x00\x00\x00\x00',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'SIK4T20NH0',
+      b'\xf1\x87WBNTH11579512CN7\x89\x88\x88\x88\x89\x88\x88\x89\x97xvwx\x87\x87\xb9wx\x86x\x85vefUU_\xff\xcc0',
+      b'\xf1\x89E31\x00\x00\x00\x00\x00\x00\x00\xf1\x82SIK4T20NH0',
+    ],
+  },   
   CAR.GENESIS_G80: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00DH__ SCC F-CUP      1.00 1.01 96400-B1120         ',
